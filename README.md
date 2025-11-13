@@ -1,29 +1,29 @@
-# 🚀 Project Management SaaS
+#  Project Management SaaS
 
 A complete, production-ready project management application with AI-powered features.
 
 ##  Features
 
 ### Core Features
-- 🔐 **User Authentication** - Signup, Login, Logout with Firebase
-- 📁 **Project Management** - Full CRUD with user isolation
+-  **User Authentication** - Signup, Login, Logout with Firebase
+-  **Project Management** - Full CRUD with user isolation
  **Section Organization** - Organize tasks within projects
-- ✅ **Task Tracking** - Complete task management with all fields
-- 🔍 **Advanced Filtering** - Filter by status, priority, assignee, due date
-- 📊 **Smart Grouping** - Group tasks by status or priority
+-  **Task Tracking** - Complete task management with all fields
+-  **Advanced Filtering** - Filter by status, priority, assignee, due date
+-  **Smart Grouping** - Group tasks by status or priority
 
 ### AI-Powered Features
-- 🎯 **Effort Estimation** - Auto-suggest Low/Medium/High effort based on task complexity
-- 🔮 **Priority Prediction** - Smart priority suggestions using keyword detection
-- 📊 **Project Summaries** - AI-generated project overviews
-- 💡 **Real-time Suggestions** - Instant AI analysis as you type
+-  **Effort Estimation** - Auto-suggest Low/Medium/High effort based on task complexity
+-  **Priority Prediction** - Smart priority suggestions using keyword detection
+-  **Project Summaries** - AI-generated project overviews
+-  **Real-time Suggestions** - Instant AI analysis as you type
 
 ### UI/UX
-- � **Fu lly Responsive** - Works on mobile, tablet, and desktop
-- 🎨 **Modern Design** - Beautiful gradients and animations
-- 🌙 **Intuitive Interface** - Easy to use and navigate
+-  **Fu lly Responsive** - Works on mobile, tablet, and desktop
+-  **Modern Design** - Beautiful gradients and animations
+-  **Intuitive Interface** - Easy to use and navigate
 
-## �️ lTech Stack
+## Tech Stack
 
 **Frontend:**
 - React 18 (Vite)
@@ -42,7 +42,7 @@ A complete, production-ready project management application with AI-powered feat
 **Database:**
 - Firebase Firestore
 
-## 📦 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js v16+
@@ -98,7 +98,7 @@ npm run dev
 
 Frontend runs on `http://localhost:5173`
 
-## 🎯 Usage
+##  Usage
 
 1. **Sign up** with email and password
 2. **Create a project** using the "+ Add" button
@@ -108,7 +108,7 @@ Frontend runs on `http://localhost:5173`
 6. **Filter and group** tasks to focus on what matters
 7. **Generate AI summaries** to get project insights
 
-## 🤖 AI Features
+##  AI Features
 
 ### Effort Estimation
 When creating a task, AI analyzes the title and description to suggest effort level:
@@ -123,9 +123,9 @@ AI detects urgency keywords and due dates to suggest priority:
 - **Low**: nice-to-have, documentation, cleanup
 
 ### Project Summary
-Click "🤖 AI Summary" to get an intelligent overview of your project with task statistics and completion rates.
+Click " AI Summary" to get an intelligent overview of your project with task statistics and completion rates.
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Authentication
 All routes require Firebase JWT token in Authorization header.
@@ -153,7 +153,7 @@ All routes require Firebase JWT token in Authorization header.
 - `POST /api/ai/suggest` - Get AI suggestions for task
 - `POST /api/ai/summary` - Generate project summary
 
-## 🚀 Deployment
+##  Deployment
 
 ### Frontend (Vercel)
 ```bash
@@ -168,7 +168,7 @@ vercel --prod
 3. Add environment variables
 4. Deploy
 
-## 🔧 Configuration
+##  Configuration
 
 ### Firebase Setup
 1. Create Firebase project
@@ -182,12 +182,12 @@ vercel --prod
 2. Add to backend `.env` file
 3. AI features will work with or without OpenAI (fallback mode available)
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The app is fully responsive and works on:
-- 📱 Mobile phones (< 640px)
-- 📱 Tablets (640px - 1024px)
-- 💻 Laptops and desktops (> 1024px)
+-  Mobile phones (< 640px)
+-  Tablets (640px - 1024px)
+-  Laptops and desktops (> 1024px)
 
 Features:
 - Hamburger menu on mobile
@@ -195,7 +195,7 @@ Features:
 - Adaptive layouts
 - Optimized typography
 
-## 🔒 Security
+##  Security
 
 - JWT token authentication
 - User data isolation
@@ -204,7 +204,7 @@ Features:
 - Environment variable protection
 - Input validation
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend won't start
 - Check `.env` file exists with correct values
@@ -227,15 +227,15 @@ netstat -ano | findstr :5001
 taskkill /PID <PID> /F
 ```
 
-## 📄 License
+##  License
 
 MIT
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Feel free to submit issues and pull requests.
 
-## 📞 Support
+##  Support
 
 For issues or questions, please check:
 1. Backend console logs
@@ -245,6 +245,6 @@ For issues or questions, please check:
 
 ---
 
-**Built with ❤️ using React, Node.js, Firebase, and AI**
+**Built with ❤️ by priyanka singh using React, Node.js, Firebase, and AI integration**
 
-**Status: ✅ Production Ready | 🚀 Fully Functional | 📱 Responsive**
+
